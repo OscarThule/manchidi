@@ -1,7 +1,6 @@
-"use client"
+"use client";
 
 import Navigation from "../components/Navigation"
-
 
 const consultationTypes = [
   {
@@ -35,17 +34,17 @@ export default function Consultation() {
       <main className="container mx-auto px-6 py-16">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Online & In-Person Consultations
+            Online &amp; In-Person Consultations
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Access MEDUNSA-trained surgical expertise through our comprehensive consultation services. 
-            Dr. Manchidi brings three decades of experience to every patient interaction.
+            Dr. Manchidi&apos;s brings three decades of experience to every patient interaction.
           </p>
         </div>
 
         {/* Consultation Options */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {consultationTypes.map((consult, index) => (
+          {consultationTypes.map((consult) => (
             <div key={consult.title} className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-blue-100 hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">{consult.title}</h3>
@@ -90,7 +89,7 @@ export default function Consultation() {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-blue-600 text-lg">📱</span>
-                  <span className="font-semibold">Easy-to-Use Mobile & Desktop Access</span>
+                  <span className="font-semibold">Easy-to-Use Mobile &amp; Desktop Access</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-blue-600 text-lg">⚡</span>

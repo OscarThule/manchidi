@@ -1,7 +1,6 @@
 "use client";
 
-import Navigation from "../components/Navigation"
-
+import Navigation from "../components/Navigation";
 
 const milestones = [
   { year: "1990", event: "Graduated from MEDUNSA Medical School" },
@@ -10,7 +9,7 @@ const milestones = [
   { year: "2010", event: "Expanded to Multi-Specialty Surgical Center" },
   { year: "2020", event: "Integrated Telemedicine and Digital Health" },
   { year: "2023", event: "30+ Years of Surgical Excellence Celebration" }
-]
+];
 
 export default function About() {
   return (
@@ -20,7 +19,7 @@ export default function About() {
       <main className="container mx-auto px-6 py-16">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            About Dr. Manchidi & Our Practice
+            About Dr. Manchidi &amp; Our Practice
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Three decades of MEDUNSA-trained surgical excellence, dedicated to advancing 
@@ -42,9 +41,10 @@ export default function About() {
             
             <div className="space-y-4">
               <p className="text-gray-600 leading-relaxed">
-                Dr. Manchidi's medical journey began at the prestigious Medical University of Southern Africa (MEDUNSA), 
-                where he developed the foundational expertise that would guide his distinguished 30-year surgical career.
+                 Dr. Manchidi&apos;s medical journey began at the prestigious Medical University of Southern Africa (MEDUNSA), 
+                 where he developed the foundational expertise that would guide his distinguished 30-year surgical career.
               </p>
+
               <p className="text-gray-600 leading-relaxed">
                 His MEDUNSA education, combined with continuous professional development and hands-on experience, 
                 has established him as a trusted leader in the surgical community, known for both technical excellence 
@@ -57,7 +57,7 @@ export default function About() {
             <div className="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-blue-100 leading-relaxed">
-                To provide exceptional surgical care grounded in MEDUNSA's tradition of excellence, 
+                To provide exceptional surgical care grounded in MEDUNSA&apos;s tradition of excellence, 
                 enhanced by three decades of practical experience and cutting-edge medical innovation.
               </p>
             </div>
@@ -139,5 +139,5 @@ export default function About() {
         </div>
       </main>
     </div>
-  )
+  );
 }

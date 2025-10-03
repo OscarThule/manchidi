@@ -1,7 +1,6 @@
-"use client"
+"use client";
 
 import Navigation from "../components/Navigation"
-
 
 const specializations = [
   {
@@ -53,8 +52,9 @@ export default function Specializations() {
           </p>
         </div>
 
+        {/* Specializations Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {specializations.map((spec, index) => (
+          {specializations.map((spec) => (
             <div
               key={spec.title}
               className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-blue-100 hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105 group"
@@ -78,7 +78,7 @@ export default function Specializations() {
                 MEDUNSA-Trained Excellence
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Dr. Manchidi's medical journey began at the prestigious Medical University of Southern Africa (MEDUNSA), 
+                Dr. Manchidi&apos;s medical journey began at the prestigious Medical University of Southern Africa (MEDUNSA), 
                 where he developed the foundational expertise that has guided his distinguished 30-year surgical career.
               </p>
               <p className="text-gray-600 leading-relaxed">

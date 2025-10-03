@@ -1,8 +1,6 @@
 "use client"
 
-
 import Navigation from "../components/Navigation"
-
 
 const currentOpenings = [
   {
@@ -11,7 +9,7 @@ const currentOpenings = [
     type: "Full-time",
     location: "Mohlaletse",
     experience: "3+ years",
-    description: "Join our elite cardiothoracic team under Dr. Manchidi's leadership"
+    description: "Join our elite cardiothoracic team under Dr. Manchidi&apos;s leadership"
   },
   {
     title: "Orthopedic Surgery Fellow",
@@ -31,7 +29,7 @@ const currentOpenings = [
   },
   {
     title: "Medical Research Coordinator",
-    department: "Research & Innovation",
+    department: "Research &amp; Innovation",
     type: "Full-time",
     location: "Hybrid",
     experience: "2+ years",
@@ -42,7 +40,7 @@ const currentOpenings = [
 const benefits = [
   {
     icon: "🎓",
-    title: "Learning & Development",
+    title: "Learning &amp; Development",
     description: "Continuous medical education and surgical training programs"
   },
   {
@@ -74,7 +72,7 @@ export default function Careers() {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Build your career alongside MEDUNSA-trained surgical excellence. 
-            Learn from Dr. Manchidi's three decades of experience while working with cutting-edge medical technology.
+            Learn from Dr. Manchidi&apos;s three decades of experience while working with cutting-edge medical technology.
           </p>
         </div>
 
@@ -84,7 +82,7 @@ export default function Careers() {
             Current Career Opportunities
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            {currentOpenings.map((job, index) => (
+            {currentOpenings.map((job) => (
               <div key={job.title} className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 hover:shadow-xl transition-all duration-300">
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-xl font-bold text-gray-900">{job.title}</h3>
@@ -121,7 +119,7 @@ export default function Careers() {
             Why Work With Us?
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {benefits.map((benefit, index) => (
+            {benefits.map((benefit) => (
               <div key={benefit.title} className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg border border-blue-100">
                 <div className="text-4xl mb-4">{benefit.icon}</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{benefit.title}</h3>
@@ -137,12 +135,12 @@ export default function Careers() {
             <div>
               <h2 className="text-3xl font-bold mb-4">MEDUNSA Legacy of Excellence</h2>
               <p className="text-blue-100 mb-4 leading-relaxed">
-                Dr. Manchidi's MEDUNSA education forms the foundation of our practice's commitment to 
+                Dr. Manchidi&apos;s MEDUNSA education forms the foundation of our practice&apos;s commitment to 
                 surgical excellence. We continue this legacy by mentoring the next generation of 
                 surgical professionals with the same rigorous standards and compassionate care.
               </p>
               <p className="text-blue-100 leading-relaxed">
-                Join a team where MEDUNSA's tradition of excellence meets 30 years of practical 
+                Join a team where MEDUNSA&apos;s tradition of excellence meets 30 years of practical 
                 surgical experience and innovation.
               </p>
             </div>
